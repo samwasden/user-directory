@@ -1,0 +1,12 @@
+.header {
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #34a5da;
+}
+
+.header h1 {
+    padding-left: 5vw;
+}

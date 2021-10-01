@@ -1,0 +1,10 @@
+.index {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: inherit;
+}
+
+.index h1 {
+    padding-right: 1vw;
+}
