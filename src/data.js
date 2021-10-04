@@ -276,8 +276,8 @@ export const data = [
     name: { first: "Mikaela", last: "Jeannequin" },
     city: "Tha Maka",
     country: "Thailand",
-    employer: null,
-    title: null,
+    employer: '',
+    title: '',
     favoriteMovies: [
       "Book of Love",
       "I Heart Huckabees",

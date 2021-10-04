@@ -1,11 +1,21 @@
-.card {
-    height: 54vh;
+#card {
     width: 60vw;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    background-color: #ebebeb;
+    background: #ebebeb;
+    color: #222222;
+}
+
+#blankCard {
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #222222;
+    color: #ebebeb;
 }
 
 #display {
@@ -14,6 +24,7 @@
 
 #name {
     border-bottom: 3px solid #34a5da;
+    width: max-content;
 }
 
 #info1{
@@ -61,4 +72,12 @@
     font-size: 20px;
     font-weight: 300;
     padding-left: 10px;
+}
+
+.hidden {
+    height: 0vh;
+}
+
+.shown {
+    height: 54vh;
 }

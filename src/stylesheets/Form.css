@@ -1,0 +1,27 @@
+#form {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10vh;
+    background: white;
+    width: 60vw;
+}
+
+.subForm {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 10vh;
+}
+
+.subSubForm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 28vw;
+}
+
+.subSubForm input {
+    width: 6vw;
+}

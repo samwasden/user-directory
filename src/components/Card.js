@@ -8,7 +8,7 @@ function Card(props) {
     let {index} = props
 
     return (
-        <div className='card'>
+        <div className='shown' id='card'>
             <Index index={index} length={data.length}/>
             <div id='display'>
                 <h1 id='name'>{data[index].name.first} {data[index].name.last}</h1>
